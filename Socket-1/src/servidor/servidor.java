@@ -13,12 +13,10 @@ public class servidor {
     private Socket socket;
     private ObjectOutputStream out;
 
-    public static void main(String[]args){
-        
+    public static void main(String[] args) {
 
-        
     }
-    
+
     public servidor() {
 
         try {
