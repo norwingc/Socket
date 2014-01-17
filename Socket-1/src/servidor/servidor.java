@@ -23,7 +23,7 @@ public class servidor {
             server = new ServerSocket(6666);
             socket = server.accept();
             out = new ObjectOutputStream(socket.getOutputStream());
-            out.writeObject("hola");
+            out.writeObject("hola mundo");
 
             out.close();
             socket.close();
